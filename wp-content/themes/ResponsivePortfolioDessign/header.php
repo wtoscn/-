@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--在线客服css地址-->
+<link href="http://skin.54kefu.net/skin/348/skin.css" rel="stylesheet" type="text/css">
 <!--在线客服css样式-->
 <style type="text/css">
-*{margin:0;padding:0;list-style-type:none;}
-a,img{border:0;}
-body{font:12px/180% Arial, Helvetica, sans-serif, "宋体";}
-/* suspend */
-.suspend{width:40px;height:198px;position:fixed;top:200px;right:0;overflow:hidden;z-index:9999;}
-.suspend dl{width:120px;height:198px;border-radius:25px 0 0 25px;padding-left:40px;box-shadow:0 0 5px #e4e8ec;}
-.suspend dl dt{width:40px;height:198px;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png);position:absolute;top:0;left:0;cursor:pointer;}
-.suspend dl dd.suspendQQ{width:120px;height:85px;background:#ffffff;}
-.suspend dl dd.suspendQQ a{width:120px;height:85px;display:block;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png) -40px 0;overflow:hidden;}
-.suspend dl dd.suspendTel{width:120px;height:112px;background:#ffffff;border-top:1px solid #e4e8ec;}
-.suspend dl dd.suspendTel a{width:120px;height:112px;display:block;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png) -40px -86px;overflow:hidden;}
-* html .suspend{position:absolute;left:expression(eval(document.documentElement.scrollRight));top:expression(eval(document.documentElement.scrollTop+200))}
+.kfoutbox{right:20px; kf54kefuqqtop:50px;}.kfboxmenu{display:none;}/**/
 </style>
-<!--在线客服代码开始-->
-<div class="suspend">
-	<dl>
-		<dt class="IE6PNG"></dt>
-		<dd class="suspendQQ"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=224409900&site=qq&menu=yes"></a></dd>
-		<dd class="suspendTel"><a href="javascript:void(0);"></a></dd>
-	</dl>
+<!--在线客服开始-->
+<div id="kfoutbox" class="kfoutbox" style="top: 79px;">
+    <div id="kfinbox" class="kfbox">
+    <div class="kf54kefuqqtop">
+    <img src="http://skin.54kefu.net/skin/348/top.gif">
+    <div id="kfboxclose" class="kfboxclose">     </div>
+    </div>
+    <div class="kf54kefuqqbg">
+    <div class="kefu54kefunetli">
+    <div class="kefu54kefunetpicimg">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=224409900&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <img align="absmiddle" border="0" title="在线客服" src="http://skin.54kefu.net/face/1.gif">
+    </a>
+    </div>
+    <div class="kefu54kefunettxt">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=224409900&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <span style="color:#000000">在线客服</span>
+    </a>
+    </div>
+    </div>
+    <div class="kefu54kefunetli">
+    <div class="kefu54kefunetpicimg">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=2331719452&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <img align="absmiddle" border="0" title="在线客服" src="http://skin.54kefu.net/face/2.gif">
+    </a>
+    </div>
+    <div class="kefu54kefunettxt">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=2331719452&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <span style="color:#000000">在线客服</span>
+    </a>
+    </div>
+    </div>
+    <div style="clear: both;"></div>
+    </div>
+    <div class="kf54kefuqqbottom">
+    <a target="_blank" href="http://wwww.54kefu.net/">
+    <img src="http://skin.54kefu.net/skin/348/bottom.gif">
+    </a>
+    </div>
 </div>
-<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
-<script type="text/javascript">           
-$(function(){
-	$(".suspend").mouseover(function() {
-        $(this).stop();
-        $(this).animate({width: 160}, 400);
-    });
-    $(".suspend").mouseout(function() {
-        $(this).stop();
-        $(this).animate({width: 40}, 400);
-    });
-});
-</script>
-<!--在线客服代码结束-->
+<div id="kfboxmenu" class="kfboxmenu kfboxmenuright"></div>
+<div style="clear: both;"></div>
+</div>
+<!--在线客服结束-->
 	<meta charset="utf-8" />
 	<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title> 
 	<?php wp_head(); ?>
