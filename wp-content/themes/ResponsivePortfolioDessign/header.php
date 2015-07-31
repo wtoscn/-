@@ -1,7 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+<!--在线客服css地址-->
+<link href="http://skin.54kefu.net/skin/348/skin.css" rel="stylesheet" type="text/css">
+<!--在线客服css样式-->
+<style type="text/css">
+.kfoutbox{right:20px; kf54kefuqqtop:50px;}.kfboxmenu{display:none;}/**/
+</style>
+<!--在线客服开始-->
+<div id="kfoutbox" class="kfoutbox" style="top: 79px;">
+    <div id="kfinbox" class="kfbox">
+    <div class="kf54kefuqqtop">
+    <img src="http://skin.54kefu.net/skin/348/top.gif">
+    <div id="kfboxclose" class="kfboxclose">     </div>
+    </div>
+    <div class="kf54kefuqqbg">
+    <div class="kefu54kefunetli">
+    <div class="kefu54kefunetpicimg">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=224409900&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <img align="absmiddle" border="0" title="在线客服" src="http://skin.54kefu.net/face/1.gif">
+    </a>
+    </div>
+    <div class="kefu54kefunettxt">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=224409900&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <span style="color:#000000">在线客服</span>
+    </a>
+    </div>
+    </div>
+    <div class="kefu54kefunetli">
+    <div class="kefu54kefunetpicimg">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=2331719452&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <img align="absmiddle" border="0" title="在线客服" src="http://skin.54kefu.net/face/2.gif">
+    </a>
+    </div>
+    <div class="kefu54kefunettxt">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=2331719452&Site=东莞市百利电器&Menu=yes" target="_blank">
+    <span style="color:#000000">在线客服</span>
+    </a>
+    </div>
+    </div>
+    <div style="clear: both;"></div>
+    </div>
+    <div class="kf54kefuqqbottom">
+    <a target="_blank" href="http://wwww.54kefu.net/">
+    <img src="http://skin.54kefu.net/skin/348/bottom.gif">
+    </a>
+    </div>
+</div>
+<div id="kfboxmenu" class="kfboxmenu kfboxmenuright"></div>
+<div style="clear: both;"></div>
+</div>
+<!--在线客服结束-->
 	<meta charset="utf-8" />
 	<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title> 
 	<?php wp_head(); ?>
