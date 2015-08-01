@@ -9,7 +9,7 @@ body{font:12px/180% Arial, Helvetica, sans-serif, "宋体";}
 /* suspend */
 .suspend{width:40px;height:198px;position:fixed;top:200px;right:0;overflow:hidden;z-index:9999;}
 .suspend dl{width:120px;height:198px;border-radius:25px 0 0 25px;padding-left:40px;box-shadow:0 0 5px #e4e8ec;}
-.suspend dl dt{width:40px;height:198px;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png);position:absolute;top:0;left:0;cursor:pointer;}
+.suspend dl dt{width:40px;height:198px;background:url(images/suspend.png);position:absolute;top:0;left:0;cursor:pointer;}
 .suspend dl dd.suspendQQ{width:120px;height:85px;background:#ffffff;}
 .suspend dl dd.suspendQQ a{width:120px;height:85px;display:block;background:url(http://demo.lanrenzhijia.com/2014/service0823/images/suspend.png) -40px 0;overflow:hidden;}
 .suspend dl dd.suspendTel{width:120px;height:112px;background:#ffffff;border-top:1px solid #e4e8ec;}
